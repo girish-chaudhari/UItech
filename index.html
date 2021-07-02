@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+      }
+      .top_menue {
+        height: 6rem;
+      }
+      .main {
+        background-color: #e7e9eb;
+        height: 100vh;
+      }
+      .side_bar {
+        background-color: white;
+        left: 0;
+        top: 0;
+        position: fixed;
+        z-index: 3;
+        box-shadow: 10px 10px 15px 12px rgba(0, 0, 0, 0.164);
+        height: 100vh;
+        text-align: center;
+      }
+      .side_bar i {
+        display: block;
+        padding: 10px 0;
+        margin: 10px 0;
+        color: gray;
+      }
+      .side_bar div:hover {
+        background-color: rgba(160, 160, 241, 0.383);
+      }
+      .side_bar div {
+        font-weight: bolder;
+        width: 100%;
+        padding: 10px;
+      }
+      .logo {
+        font-size: 2rem;
+      }
+      .link {
+        margin: auto;
+        padding-top: 3rem;
+        width: 70%;
+      }
+      .link a {
+        text-decoration: none;
+        font-weight: bolder;
+      }
+      .link i {
+        margin-right: 10px;
+        font-size: 1.5rem;
+      }
+      .url {
+        width: 65%;
+        border-radius: 10px;
+        height: 3rem;
+        margin: auto;
+        background-color: white;
+        margin-top: 2rem;
+        padding: 15px 0 0 15px;
+      }
+      .content {
+          width: 65%;
+        margin: 3rem auto;
+      }
+      .card {
+        background-color: white;
+        border-radius: 10px;
+        height: 250px;
+        width: 200px;
+      }
+     
+    </style>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>UI for Task</title>
+  </head>
+  <body>
+    <header>
+      <div class="top_menue"></div>
+      <div class="side_bar">
+        <div class="logo"><i class="fab fa-gg-circle"></i></div>
+        <div><i class="fas fa-user"></i>Students</div>
+        <div><i class="fas fa-book"></i>Lesson plans</div>
+        <div><i class="fas fa-cog"></i>Settings</div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="link">
+        <a href="#"><i class="fas fa-caret-left"></i>Videos</a>
+      </div>
+      <div class="url">Importent URL Here...</div>
+      <div class="content">
+          <div class="card"></div>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
